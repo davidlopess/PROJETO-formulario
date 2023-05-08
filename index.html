@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Preencha o formulario abaixo.</h1>
+    <section class="for">
+        <div class="imagem">
+            <img src="imagem/th.jpeg" alt="imagem">
+        </div>
+        <div class="forme">
+            <form action="forme.html" target="_blank">
+                <div class="filho">
+                    <label for="inom">Nome Completo <br></label>
+                    <input type="text" name="nome" id="inom" placeholder="nome" autocomplete="username"  required>
+                </div>
+                <div class="filho">
+                    <label for="imail">E-Mail <br></label>
+                    <input type="email" name="e-mail" id="imail" placeholder="e-mail" autocomplete="email" required>
+                </div>
+                <div class="filho">
+                    <label for="isen">Senha <br></label>
+                    <input type="password" name="senha" id="isen" placeholder="login" autocomplete="current-password" minlength="5" maxlength="15" required>
+                </div>
+            
+                    
+                <div class="botao">
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="excluir">
+                </div>
+                
+                
+
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
